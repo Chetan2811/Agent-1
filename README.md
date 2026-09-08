@@ -1,9 +1,9 @@
 # Agent 1
 
-Workflow done.
+Introduced AI
+Understands prompt and write appropriate FFMPEG command and make edits.
 
-run streamlit run streamlit.py
+Run `export GEMINI_API_KEY="api key"`
+Run `streamlitt run streamlit.py`
 
-upload file -> enter ffmpeg command -> process -> download
-
-No AI introduction!
+Next goal : Gemini only returns JSON. And that JSON format will have actions and those actions are functions in new python file. Gemini makes a plan and python file executes.
