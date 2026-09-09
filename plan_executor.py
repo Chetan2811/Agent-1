@@ -73,3 +73,4 @@ def execute_plan(plan: dict, input_path: Path, output_path: Path) -> None:
                 f"Unsupported action type '{action['type']}'. "
                 f"Supported type: {', '.join(ACTION_HANDLERS)}."
             )
+

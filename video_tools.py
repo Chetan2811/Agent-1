@@ -25,3 +25,4 @@ def trim_video(input_path: Path, output_path: Path, start: float, end: float) ->
         if details:
             message = f"{message}\n{details}"
         raise RuntimeError(message) from error
+
