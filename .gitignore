@@ -1,3 +1,5 @@
 output/
 clips/
 uploads/
+__pycache__/
+*.pyc
